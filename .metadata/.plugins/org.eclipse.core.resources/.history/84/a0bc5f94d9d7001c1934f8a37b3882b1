@@ -1,0 +1,21 @@
+package com.constex;
+
+public class Book {
+	
+	String title;
+	String author;
+	
+	public Book() {
+		
+		title = t;
+		author = "°¨ÀÚ";
+		
+	}
+	public Book(String t, String a) {
+		
+		title = t;
+		author = a;
+		
+	}
+
+}

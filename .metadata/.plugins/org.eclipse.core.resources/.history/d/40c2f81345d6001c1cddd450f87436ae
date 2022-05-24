@@ -1,0 +1,35 @@
+package methodex;
+
+public class MethodEx02_1 {
+	
+	public static void X() {
+		for(int a = 0; a < 5; a++) {
+			System.out.print("*");
+		}
+		// void일 경우 return 생략 가능
+	}
+
+	public static void main(String[] args) {
+		
+		for(int a = 0; a < 5; a++) {
+			System.out.print("*");
+		}
+		System.out.println("\nHello");
+
+		for(int a = 0; a < 5; a++) {
+			System.out.print("*");
+		}
+		System.out.println("\nJava");
+		
+		for(int a = 0; a < 5; a++) {
+			System.out.print("*");
+		}
+		System.out.println("\n!!!!!");
+		
+		for(int a = 0; a < 5; a++) {
+			System.out.print("*");
+		}
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.classex;
+
+import java.io.IOException;
+
+public class ClassExam01 {
+
+	public static void main(String[] args) throws IOException {
+		
+		CLassExam ce = new ClassExam();
+		ce.setName();
+
+	}
+
+}

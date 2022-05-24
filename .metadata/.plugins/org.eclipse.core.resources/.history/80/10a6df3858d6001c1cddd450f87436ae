@@ -1,0 +1,21 @@
+package methodex;
+
+import java.io.*;
+
+public class MethodEx05 {
+	
+	public static String getString(String str) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println(str + " : ");
+		
+		return null;
+	}
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

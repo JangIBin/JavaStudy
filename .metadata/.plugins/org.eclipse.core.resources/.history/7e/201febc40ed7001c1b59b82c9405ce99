@@ -1,0 +1,89 @@
+package study;
+
+/*
+ 	문]
+ 		주민 번호를 입력받아 올바른 주민등록번호인지를 검증하는 프로그램을 작성
+ 		123456 - abcdefg
+ 		12 - 년도
+ 		34 - 월
+ 		56 - 일
+ 		
+ 		a일 경우
+ 		
+ 		9, 0일 경우 1800년대
+ 		1, 2일 경우 1900년대
+ 		2, 4일 경우 2000년대
+ 		9 1 3일 경우 남성
+ 		0 2 4일 경우 여성
+ 		
+ 		b일 경우
+ 		주민등록번호를 등록한 지역
+ 		0 - 서울
+ 		1 - 경기, 인천
+ 		2 - 부산
+ 		3 - 강원
+ 		4 - 충청도
+ 		5 - 전라도
+ 		6 - 대구, 광주
+ 		7 - 경북, 전남
+ 		8 - 경남
+ 		9 - 제주
+ 		
+ 		c와 d일 경우
+ 		시도의 구
+ 		
+ 		e와 f
+ 		해당 구의 동 읍 면을 표시
+ 		
+ 		g의 판별 공식
+ 		
+ 		int hap = 0;
+ 		hap += 주민번호 첫번째 자리(1)*2
+		hap += 주민번호 두번째 자리(2)*3
+		hap += 주민번호 세번째 자리(3)*4
+		hap += 주민번호 네번째 자리(4)*5
+		hap += 주민번호 다섯번째 자리(5)*6
+		hap += 주민번호 여섯번째 자리(6)*7
+		
+		7번째 자리는 '-'표시 이므로 계산 되지 않음
+		
+		hap += 주민번호 첫번째 자리(a)*8
+		hap += 주민번호 첫번째 자리(b)*9
+		hap += 주민번호 첫번째 자리(c)*2
+		hap += 주민번호 첫번째 자리(d)*3
+		hap += 주민번호 첫번째 자리(e)*4
+		hap += 주민번호 첫번째 자리(f)*5
+ */
+
+import java.util.*;
+import java.io.*;
+
+public class ArrayTest {
+
+	public static void main(String[] args) throws IOException{
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		String name = "";
+		int[] jumin = new int[14];
+		boolean right = false;
+		
+		System.out.print("이름 입력 : ");
+		name = br.readLine();
+		
+		do {
+			right = false;
+			System.out.print("주민번호 입력(ex : 111111-1111111) : ");
+			for(int i = 0; i < jumin.length; i++) {
+				jumin[i] = System.in.read()-48;
+			}
+			System.in.read();
+			System.in.read();
+			System.in.skip(2);
+			
+		} while ();
+		
+		
+	}
+
+}

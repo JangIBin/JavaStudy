@@ -1,0 +1,13 @@
+package com.ex03;
+
+public class CircleEx {
+
+	public static void main(String[] args) {
+
+		Circle pizza; // 레퍼런스 변수선언
+		
+		pizza = new Circle();
+		
+	}
+
+}

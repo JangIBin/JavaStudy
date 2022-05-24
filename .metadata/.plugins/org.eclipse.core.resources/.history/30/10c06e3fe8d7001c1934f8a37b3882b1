@@ -1,0 +1,21 @@
+package com.constex;
+
+class ThisEx {
+	
+	String name, jumin, tel;
+	
+	public ThisEx() {
+		this.name = "GamJa";
+		this.jumin = "012345-6789012";
+		tel = "010-1234-5678";
+	}
+	
+}
+
+public class ThisEx04 {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

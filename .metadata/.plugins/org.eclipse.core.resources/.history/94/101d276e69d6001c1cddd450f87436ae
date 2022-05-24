@@ -1,0 +1,17 @@
+package com.ex04;
+
+import java.util.*;
+
+public class RectangleEx {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("가로 : ");
+		
+		System.out.println("세로 : ");
+
+	}
+
+}

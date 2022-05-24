@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\workspace\Test"/>
+			<item value="C:\workspace\Day0512"/>
+			<item value="C:\workspace\Day0511"/>
+			<item value="C:\workspace\Day0510"/>
+			<item value="C:\workspace\Day0509"/>
+			<item value="C:\workspace\Day0504"/>
+			<item value="C:\workspace\Day0503"/>
+			<item value="C:\workspace\Day0502"/>
+			<item value="C:\workspace\Day0429"/>
+			<item value="C:\workspace\Day0428"/>
+			<item value="C:\workspace\Day0426"/>
+			<item value="C:\workspace\Day0425"/>
+			<item value="C:\workspace\Day0422"/>
+			<item value="C:\workspace\Day0421"/>
+			<item value="C:\workspace\Day0420"/>
+			<item value="C:\workspace\Day0419"/>
+			<item value="C:\workspace\Day0418"/>
+			<item value="C:\workspace\Day0415"/>
+			<item value="C:\workspace\Day0414"/>
+			<item value="C:\workspace\Day0413"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

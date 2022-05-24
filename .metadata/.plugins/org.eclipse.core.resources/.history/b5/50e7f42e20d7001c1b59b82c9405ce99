@@ -1,0 +1,8 @@
+package classexam;
+
+public class ClassExam {
+	
+	private int x;
+	private int y;
+
+}

@@ -1,0 +1,15 @@
+package com.methodex;
+
+public class ReferenceParameter {
+	
+	public void increase(int[] n) {
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package study;
+
+import java.io.*;
+import java.util.*;
+
+public class CLassExam {
+	
+	private BufferedReader br;
+	private String name;
+	private int[] jumin;
+	private boolean right;
+
+
+}

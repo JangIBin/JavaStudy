@@ -1,0 +1,14 @@
+package methodex;
+
+public class MethodEx04 {
+	public static int plus(int x,int y) {
+		return x + y;
+	}
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

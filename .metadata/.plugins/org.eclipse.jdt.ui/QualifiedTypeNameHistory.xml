@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="com.ex02.sung"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.ex04.Rectangle"/>
+    <fullyQualifiedTypeName name="com.classex.CLassExam"/>
+    <fullyQualifiedTypeName name="com.methodex.ValueParameter"/>
+    <fullyQualifiedTypeName name="com.methodex.ReferenceParameter"/>
+    <fullyQualifiedTypeName name="com.methodex.VariableEx"/>
+    <fullyQualifiedTypeName name="com.methodex.OverloadingEx01"/>
+    <fullyQualifiedTypeName name="com.methodex.OverloadingEx02"/>
+    <fullyQualifiedTypeName name="com.constex.Book"/>
+    <fullyQualifiedTypeName name="com.constex.Circle"/>
+    <fullyQualifiedTypeName name="com.constex.ThisEx02"/>
+    <fullyQualifiedTypeName name="com.constex.BookEx"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>
