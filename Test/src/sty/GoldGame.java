@@ -2,17 +2,7 @@ package sty;
 
 import java.util.*;
 
-public class GoldGame {
-    public static void main(String[] args) {
-        Game obj = new Game();
-        do {
-            obj.init();
-            obj.print();
-            obj.move();
-        }while(obj.c!='o' && !obj.getGold(obj.mnstr) && !obj.getGold(obj.user) && !obj.attackMonster());
-        obj.endprint();
-    }
-}
+
  
 abstract class Sprite {
     int x=3; int y=3;
@@ -118,7 +108,7 @@ class Game {
         if(sprite.y>17 || sprite.y<1) {
             sprite.y = sprite.oldy;
         }
-        if(sprite instanceof Main) System.out.println("you can't go there");
+        if(sprite instanceof Main) System.out.println("이 위치로 갈 수 없습니다.");
     }
  
     void endprint() {
@@ -130,10 +120,22 @@ class Game {
             System.out.println("");
         }
         System.out.println("!!!!!!!!!!!!!!!!!!!");
-        System.out.println("Game ended");
-        if(getGold(user)) System.out.println("you got the GOLD!");
-        if(getGold(mnstr)) System.out.println("monster got the GOLD!");
-        if(attackMonster()) System.out.println("monster ATTACKED you!");
+        System.out.println("게임 끝!");
+        if(getGold(user)) System.out.println("GOLD를 획득하셨습니다.");
+        if(getGold(mnstr)) System.out.println("몬스터가 GOLD를 획득하셨습니다");
+        if(attackMonster()) System.out.println("몬스터에게 공격당하셨습니다!");
+    }
+}
+
+public class GoldGame {
+    public static void main(String[] args) {
+        Game obj = new Game();
+        do {
+            obj.init();
+            obj.print();
+            obj.move();
+        }while(obj.c!='o' && !obj.getGold(obj.mnstr) && !obj.getGold(obj.user) && !obj.attackMonster());
+        obj.endprint();
     }
 }
  
