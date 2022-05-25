@@ -1,0 +1,13 @@
+package inherex;
+
+class PointEx {
+	
+}
+
+public class CircleEx {
+
+	public static void main(String[] args) {
+
+	}
+
+}

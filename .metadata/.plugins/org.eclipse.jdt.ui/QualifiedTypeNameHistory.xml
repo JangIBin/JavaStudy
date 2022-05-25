@@ -14,9 +14,12 @@
     <fullyQualifiedTypeName name="com.constex.Circle"/>
     <fullyQualifiedTypeName name="com.constex.ThisEx02"/>
     <fullyQualifiedTypeName name="com.constex.BookEx"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.poly.Animal"/>
+    <fullyQualifiedTypeName name="inher.SubExam"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
