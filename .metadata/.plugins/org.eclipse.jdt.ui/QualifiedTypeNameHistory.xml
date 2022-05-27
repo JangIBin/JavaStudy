@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.nio.Buffer"/>
     <fullyQualifiedTypeName name="com.ex02.sung"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.ex04.Rectangle"/>
     <fullyQualifiedTypeName name="com.classex.CLassExam"/>
     <fullyQualifiedTypeName name="com.methodex.ValueParameter"/>
@@ -22,4 +21,14 @@
     <fullyQualifiedTypeName name="com.poly.Animal"/>
     <fullyQualifiedTypeName name="inher.SubExam"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.hw.Instrument"/>
+    <fullyQualifiedTypeName name="com.hw.two.RFMouse"/>
+    <fullyQualifiedTypeName name="com.hw.two.IRF"/>
+    <fullyQualifiedTypeName name="com.test.Sung"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanAttributeInfoSupport"/>
+    <fullyQualifiedTypeName name="com.test.Sungimpl"/>
+    <fullyQualifiedTypeName name="com.inner.OuterEx"/>
+    <fullyQualifiedTypeName name="com.inner.OuterEx.InnerEx"/>
+    <fullyQualifiedTypeName name="com.inner.MemberInner.Inner"/>
 </qualifiedTypeNameHistroy>
