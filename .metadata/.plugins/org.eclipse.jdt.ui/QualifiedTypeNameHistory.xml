@@ -17,10 +17,8 @@
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.poly.Animal"/>
     <fullyQualifiedTypeName name="inher.SubExam"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.hw.Instrument"/>
     <fullyQualifiedTypeName name="com.hw.two.RFMouse"/>
     <fullyQualifiedTypeName name="com.hw.two.IRF"/>
@@ -28,7 +26,21 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanAttributeInfoSupport"/>
     <fullyQualifiedTypeName name="com.test.Sungimpl"/>
-    <fullyQualifiedTypeName name="com.inner.OuterEx"/>
     <fullyQualifiedTypeName name="com.inner.OuterEx.InnerEx"/>
     <fullyQualifiedTypeName name="com.inner.MemberInner.Inner"/>
+    <fullyQualifiedTypeName name="com.inner.StaticInner"/>
+    <fullyQualifiedTypeName name="com.inner.StaticInner.Inner"/>
+    <fullyQualifiedTypeName name="com.inner.OuterEx"/>
+    <fullyQualifiedTypeName name="com.inner.OuterEx01"/>
+    <fullyQualifiedTypeName name="com.inner.OuterEx01.InnerEx01"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="sty.Deck"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="member.WriteAction"/>
+    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
+    <fullyQualifiedTypeName name="member.MemberService"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="member.ListAction"/>
+    <fullyQualifiedTypeName name="member.MemberVO"/>
+    <fullyQualifiedTypeName name="member.MemberMain"/>
 </qualifiedTypeNameHistroy>
