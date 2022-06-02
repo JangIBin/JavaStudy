@@ -8,8 +8,8 @@ class A {
 		B b = new B();
 //		C c = new C();
 		
-		b.n = 3;
-		b.g();
+//		b.n = 3;
+//		b.g();
 	}
 
 }
