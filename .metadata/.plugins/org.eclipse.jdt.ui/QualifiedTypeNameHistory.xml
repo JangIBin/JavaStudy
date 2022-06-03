@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.nio.Buffer"/>
-    <fullyQualifiedTypeName name="com.ex02.sung"/>
-    <fullyQualifiedTypeName name="com.ex04.Rectangle"/>
-    <fullyQualifiedTypeName name="com.classex.CLassExam"/>
-    <fullyQualifiedTypeName name="com.methodex.ValueParameter"/>
-    <fullyQualifiedTypeName name="com.methodex.ReferenceParameter"/>
     <fullyQualifiedTypeName name="com.methodex.VariableEx"/>
     <fullyQualifiedTypeName name="com.methodex.OverloadingEx01"/>
     <fullyQualifiedTypeName name="com.methodex.OverloadingEx02"/>
@@ -13,10 +7,7 @@
     <fullyQualifiedTypeName name="com.constex.Circle"/>
     <fullyQualifiedTypeName name="com.constex.ThisEx02"/>
     <fullyQualifiedTypeName name="com.constex.BookEx"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.poly.Animal"/>
     <fullyQualifiedTypeName name="inher.SubExam"/>
     <fullyQualifiedTypeName name="com.hw.Instrument"/>
@@ -37,11 +28,9 @@
     <fullyQualifiedTypeName name="member.WriteAction"/>
     <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
     <fullyQualifiedTypeName name="member.MemberService"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="member.ListAction"/>
     <fullyQualifiedTypeName name="member.MemberVO"/>
     <fullyQualifiedTypeName name="member.MemberMain"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.study.SearchService"/>
     <fullyQualifiedTypeName name="com.inherex.Subsub"/>
     <fullyQualifiedTypeName name="com.inherex.OverridingParent"/>
@@ -52,4 +41,23 @@
     <fullyQualifiedTypeName name="com.inherex.Sales2"/>
     <fullyQualifiedTypeName name="com.packageexample.PackageExample"/>
     <fullyQualifiedTypeName name="q.B"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="com.excp2.SpaceException"/>
+    <fullyQualifiedTypeName name="com.excp2.MemoryException"/>
+    <fullyQualifiedTypeName name="com.excp2.InstallException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="java.io.PrintStream"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="com.excp3.MyException"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="javax.swing.Box"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

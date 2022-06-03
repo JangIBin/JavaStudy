@@ -4,14 +4,29 @@ public class ExceptionTest {
 
 	public static void main(String[] args) {
 		try {
-			startInstall();
-			copyFiles();
-		} catch (SpaceException e) {
-			System.out.println("공간이 부족하오니 출분히 확보 바랍니다.");
-		} catch (MemoryException e) {
-			System.out.println("메모리가 부족하오니 충분히 확보 바랍니다.");
+			Install();
+		} catch (InstallException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	static void Install() throws InstallException {
+		
+		try {
+			startInstall(); // 프로그램 설치할 준비
+			copyFiles(); // 파일 복사
+		} catch (SpaceException se) {
+			InstallException ie = new InstallException("설치 중 예외 발생.....");
+			ie.initCause(se); // 지정한 에외를 원인으로 등록하는 기능
+			throw ie; // 원인 예외를 반환함
+		} catch (MemoryException me) {
+			InstallException ie = new InstallException("설치 중 예외 발생.....");
+			ie.initCause(me); // 지정한 에외를 원인으로 등록하는 기능
+			throw ie;
 		} finally {
-			deleteTempFiles();
+			deleteTempFiles(); // 프로그램 설치에 사용된 임시 파일들을 제거한다.
 		}
 		
 	}
@@ -33,7 +48,7 @@ public class ExceptionTest {
 	}
 	
 	static boolean enoughMemory() {
-		return false;
+		return true;
 	}
 	
 	static void copyFiles() { // 파일 복사
